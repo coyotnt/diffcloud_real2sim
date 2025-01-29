@@ -14,4 +14,5 @@
 * Note, this is heavily built on [DiffSim](https://github.com/YilingQiao/diffsim)
 
 
-## Working on Ubuntu 18.04
+## Sim Version Working on Ubuntu 18.04
+Requires [Cuda Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) 
