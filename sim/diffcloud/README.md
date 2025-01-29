@@ -10,6 +10,12 @@
 ```
 git clone https://github.com/priyasundaresan/diffcloud_real2sim
 ```
+* Install xhost if not already installed:
+  ```
+  sudo apt-get update
+  sudo apt-get install x11-xserver-utils
+  ```
+
 * Install `docker` if not already installed (https://docs.docker.com/engine/install/). This repository is tested with 
 ```
 Docker version 20.10.12, build e91ed57
