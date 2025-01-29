@@ -2,5 +2,5 @@
 import os
 
 if __name__=="__main__":
-    cmd = "nvidia-docker build -t diffsim . "
+    cmd = "docker build -t diffsim . "
     code = os.system(cmd)
