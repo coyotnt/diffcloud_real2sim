@@ -14,7 +14,6 @@ RUN rm -f /etc/apt/sources.list.d/*
 # Clean out any cached apt data
 RUN apt-get clean
 
-# Now proceed with the rest of your original Docker commands
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     libgl1-mesa-glx \
