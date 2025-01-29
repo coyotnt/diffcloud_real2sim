@@ -12,3 +12,6 @@
   * `sim`: scripts for performing real-to-sim optimizations with differentiable and nondifferentiable methods (TODO).
 * Please see the details of our DiffCloud implementation [here](https://github.com/priyasundaresan/diffcloud_real2sim/tree/master/sim/diffcloud)
 * Note, this is heavily built on [DiffSim](https://github.com/YilingQiao/diffsim)
+
+
+## Working on Ubuntu 18.04
