@@ -59,6 +59,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import pytorch3d
 ```
   * NOTE: The above `./docker_run.py` script is intended for if you are doing development on a machine with a display. If you are remotely logged into a machine, you may use `./docker_run_headless.py` but note that scripts like `pysim/msim.py` which launch a visualization will not work.
+  * If there is a Conda init error manually run `eval "$(conda shell.bash hook)"` after ./paths.sh and manually activate the conda env `conda activate diffsim_torch3d`
 
 <a name="simexps"></a>
 ## Experiments
