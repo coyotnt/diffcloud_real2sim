@@ -8,7 +8,7 @@
 ## Installation
 * If not already done, clone this repository:
 ```
-git clone https://github.com/priyasundaresan/diffcloud_real2sim
+git clone https://github.com/coyotnt/diffcloud_real2sim.git
 ```
 * Install xhost if not already installed:
   ```
