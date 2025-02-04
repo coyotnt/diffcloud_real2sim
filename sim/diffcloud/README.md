@@ -60,6 +60,15 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
   * NOTE: The above `./docker_run.py` script is intended for if you are doing development on a machine with a display. If you are remotely logged into a machine, you may use `./docker_run_headless.py` but note that scripts like `pysim/msim.py` which launch a visualization will not work.
   * If there is a Conda init error manually run `eval "$(conda shell.bash hook)"` after ./paths.sh and manually activate the conda env `conda activate diffsim_torch3d`
+    
+I have had issues running the ./paths.sh script returning a `CondaError: Run 'conda init' before 'conda activate'` error but found that running the commands 1 by one from the terminal works fine
+```
+export TORCH_USE_RTLD_GLOBAL=YES
+export PYTHONPATH=/host/build/lib.linux-x86_64-3.6:$PYTHONPATH
+conda init
+source ~/.bashrc
+conda activate diffsim_torch3d
+```
 
 <a name="simexps"></a>
 ## Experiments
